@@ -1,0 +1,25 @@
+CUDA_VISIBLE_DEVICES=0 python scripts/train.py \
+--dataset_type ffhq_encode \
+--encoder_type WPlusEncoder \
+--encoder_number_layers 50  \
+--exp_dir ./experiment/ffhq_2 \
+--start_from_latent_avg \
+--use_w_pool \
+--w_discriminator_lambda 0.1 \
+--w_rec_lambda_start 0   \
+--w_rec_lambda_delta 0.1   \
+--w_rec_interval 5000   \
+--id_lambda 0.4 \
+--multi_view_start_step 100000  \
+--view_count 3 \
+--id_lambda_multi_view 0.1 \
+--val_interval 5000 \
+--save_interval 5000 \
+--max_steps 2000000 \
+--eg3d_generator ./pretrained/eg3d_G_ema.pkl \
+--workers 2 \
+--batch_size 2 \
+--test_batch_size 2 \
+--test_workers 2   \
+--inner_times 1  \
+--outer_times 1

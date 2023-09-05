@@ -1,0 +1,32 @@
+name: preim3d
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - python = 3.9
+  - pip
+  - numpy==1.22.3
+  - click=8.0
+  - pillow=9.4.0
+  - scipy=1.7.1
+  - requests=2.26.0
+  - pytorch=1.13.1
+  - torchvision=0.14.1
+  - tqdm=4.62.2
+  - ninja=1.10.2
+  - matplotlib=3.5.3
+  - imageio=2.9.0
+  - pip:
+    - pytorch_lightning==2.0.0
+    - timm==0.6.12
+    - imgui==1.3.0
+    - glfw==2.2.0
+    - pyopengl==3.1.5
+    - imageio-ffmpeg==0.4.3
+    - opencv-python==4.6.0.66
+    - dlib==19.24.2
+    - pyspng
+    - psutil
+    - mrcfile
+    - tensorboard    
+    - -i https://pypi.tuna.tsinghua.edu.cn/simple
