@@ -9,7 +9,9 @@
 
 **Real-Time Editing**
 <p align="center">
-<img src="docs/demo.mp4" width="800px"/>
+<video width="100%"  controls>
+  	          <source src="docs/demo.mp4" type="video/mp4">
+            </video>
 </p>
 ## Description   
 Official Implementation of "<a href="https://arxiv.org/abs/2304.10263">PREIM3D: 3D Consistent Precise Image Attribute Editing from a Single Image</a>" paper. 
