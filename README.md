@@ -7,12 +7,10 @@
 <img src="docs/teaser.jpg" width="800px"/>
 </p>
 
-**Real-Time Editing**
+<!-- **Real-Time Editing**
 <p align="center">
-<video width="100%"  controls>
-  	          <source src="docs/demo.mp4" type="video/mp4">
-            </video>
-</p>
+<video width="100%" controls><source src="https://mybabyyh.github.io/Preim3D/images/demo.mp4" type="video/mp4"></video>
+</p> -->
 ## Description   
 Official Implementation of "<a href="https://arxiv.org/abs/2304.10263">PREIM3D: 3D Consistent Precise Image Attribute Editing from a Single Image</a>" paper. 
 The PREIM3D  enables reconstructing texture and geometry from a single real image within one second and allows one to perform a list of attributes editing sequentially.
