@@ -72,7 +72,7 @@ You can use `train.sh` to train the model.
 ```
 If you want to finetune the model, you can add `--checkpoint_path`.
 ## Acknowledgments
-Thanks to [omertov](https://github.com/omertov/encoder4editing) and [EG3D](https://github.com/NVlabs/eg3d)for sharing their code.
+Thanks to [omertov](https://github.com/omertov/encoder4editing) and [nvlabs](https://github.com/NVlabs/eg3d)for sharing their code.
 
 ## Citation
 If you use this code for your research, please cite:
